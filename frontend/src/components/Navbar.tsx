@@ -51,13 +51,7 @@ export default function Navbar() {
           >
             📝 Explore
           </Link>
-          <Link
-            href="/test-supabase"
-            className={`navbar-link ${isActive('/test-supabase') ? 'active' : ''}`}
-            onClick={() => setMobileOpen(false)}
-          >
-            ⚡ Supabase
-          </Link>
+
           {user && (
             <>
               <Link
